@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [], 
-  base: 'webmap', 
+  base: '/webmap/', 
   build: {
     outDir: 'dist', 
   },
