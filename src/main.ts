@@ -1,7 +1,7 @@
 import { Map } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
-// MapLibre GL JSのMapインスタンスを初期化＝地図画面を作成
+//地図画面を作成
 const map = new Map({
     container: 'map',
     style: {
@@ -26,3 +26,6 @@ const map = new Map({
     center: [143.95, 43.65],
     zoom: 6,
 });
+
+//コンパイルを通すため、mapを使用扱いにする
+(window as any).map = map;
