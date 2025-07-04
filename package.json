@@ -11,11 +11,14 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
     "gh-pages": "^6.3.0",
     "typescript": "~5.6.2",
     "vite": "^5.4.10"
   },
   "dependencies": {
-    "maplibre-gl": "^4.7.1"
+    "maplibre-gl": "^4.7.1",
+    "react-dom": "^19.1.0"
   }
 }
